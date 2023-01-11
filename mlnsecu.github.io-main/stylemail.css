@@ -35,19 +35,20 @@
         padding: 9px;
         font-family: "Sawarabi Gothique", sans-serif;
         font-size: 1.5rem;
-        background-color: green;
+        background-color: red;
         
         
 }
 .solut:hover{
         /* opacity: 50%; */
-        color: green;
-        background-color: white;
-        border: green;
+        transition: all 0.3s ease-in-out;
+        color: white;
+        background-color: green;
+        border: white;
         
 }
 
 .lienmail{
-        color:white ;
+        color:red ;
 
 }
