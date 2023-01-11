@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les Dangers</title>
+  </head>
+  <body>
+    <!--     Accueil : 
+        une en-tête avec le logo et le nom de l’entreprise
+        une barre de navigation (non active pour le moment, sauf pour accueil) -->
+    <header>
+      <section class="logo">
+        <a href="index.html">
+          <img src="asset/logo .png" alt="Logo" id="logo"
+        /></a>
+        <a href="index.html">
+          <img
+            src="asset/que_le_nom_entier.png"
+            alt="Nom de l'entreprise"
+            id="nomentre"
+        /></a>
+      </section>
+      <div class="navrs">
+        <div class="barnav">
+          <!-- Barre Nav -->
+          <ol>
+            <li>
+              <a href="index.html" class="liennav">Accueil</a>
+            </li>
+            <li>
+              <a href="news.html" class="liennav">News</a>
+            </li>
+            <li>
+              <a href="aboutus.html" class="liennav">Qui Sommes-Nous ?</a>
+            </li>
+            <li>
+              <a href="dangers.html" class="liennav">Les CyberMenaces</a>
+            </li>
+
+            <li id="formationbtn">
+              <a href="formation.html" class="liennav">Nos Formations</a>
+            </li>
+          </ol>
+        </div>
+        <div class="reseaux">
+          <a href="https://twitter.com/MLN_Security" target="_blank"
+            ><img src="asset/twitter.png" alt="Twitter" width="40%" />
+          </a>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=100089217251414"
+            target="_blank"
+            ><img src="asset/facebook.png" alt="Facebook" width="40%"
+          /></a>
+
+          <a
+            href="https://www.linkedin.com/in/imfluence-security-32b914260/"
+            target="_blank"
+            ><img src="asset/instagram.png" alt="Instagram" width="40%"
+          /></a>
+
+          <a
+            href="https://www.instagram.com/imfluence_security/?hl=fr"
+            target="_blank"
+            ><img src="asset/instagram.jpg" alt="Gmail" width="40%"
+          /></a>
+
+          <a href="mailto:imfluence.security@gmail.com" target="_blank">
+            <img src="asset/gmail.png" alt="Gmail" width="40%"
+          /></a>
+        </div>
+      </div>
+    </header>
+    <!-- Fin Barre Nav -->
+
+    <section class="main">
+      <h1>LES CYBERMENACES</h1>
+
+      <div class="flexbox">
+        <ul>
+          <li>
+            <h3>DDoS</h3>
+            <p>
+              DDoS (DDoS pour Distributed Denial of Service en anglais) vise à
+              rendre inaccessible un serveur par l'envoi de multiples requêtes
+              jusqu'à le saturer.
+            </p>
+          </li>
+          <li>
+            <h3>MITM</h3>
+            <p>
+              On parle d'attaque de l'homme du milieu (MITM) lorsqu'une entité
+              extérieure intercepte les communications entre deux systèmes. Il
+              peut s'agir de n'importe quelle forme de communication en ligne —
+              e-mail, réseaux sociaux, navigation Internet...
+            </p>
+          </li>
+          <li>
+            <h3>Phishing</h3>
+            <p>
+              Le phishing est une forme d'escroquerie sur internet. Le fraudeur
+              se fait passer pour un organisme que vous connaissez (banque,
+              service des impôts, CAF, etc.), en utilisant le logo et le nom de
+              cet organisme.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="habillacc">
+         <img src="asset/habillage.png">
+    </div> -->
+      <div class="flexbox-mid">
+        <ul id="mid">
+          <li>
+            <h3>Injection SQL</h3>
+            <p>
+              L'injection SQL est une technique permettant d'injecter des
+              éléments, notamment du code de type SQL (Structured Query
+              Language, langage utilisé pour manipuler les bases de données),
+              dans les champs des formulaires web ou dans les liens des pages
+              afin de les envoyer au serveur web.
+            </p>
+          </li>
+          <li>
+            <h3>XSS Attack</h3>
+            <p>
+              Les attaques XSS consistent à insérer un code malveillant dans des
+              sites Web par ailleurs fiables. Elle se produit quand des
+              cybercriminels injectent un script malveillant dans le contenu du
+              site Web ciblé, qui est ensuite inclus dans le contenu dynamique
+              reçu par le navigateur de la victime.
+            </p>
+          </li>
+          <li>
+            <h3>Birthday Attack</h3>
+            <p>
+              Une attaque des anniversaires est un type d’attaque en
+              cryptanalyse qui exploite des notions mathématiques équivalentes à
+              celles qu’utilise le paradoxe des anniversaires en théorie des
+              probabilités. Cette attaque peut être utilisée pour modifier les
+              communications entre deux personnes ou plus.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <img src="asset/copyright.png" alt="copyright" class="footerimg" />
+    </footer>
+  </body>
+</html>

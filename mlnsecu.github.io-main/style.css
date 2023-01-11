@@ -1,0 +1,519 @@
+/*********
+Variables 
+**********/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Dosis:wght@300&family=Heebo:wght@300;900&family=Libre+Franklin:ital,wght@0,100;0,300;1,300&family=Open+Sans:wght@300;500&family=Teko:wght@300&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Dosis:wght@300&family=Heebo:wght@300;900&family=Libre+Franklin:ital,wght@0,100;0,300;1,300&family=Open+Sans:wght@300;500&family=Teko:wght@300&family=Work+Sans:wght@300&display=swap');  */
+@import url("https://fonts.googleapis.com/css2? famille= Abel &family= Barlow:wght@300 & family= Dosis:wght@300 & family= Heebo:wght@300;900 & family= Libre+ Franklin:ital,wght@0,100;0,300;1,300 & family= Open+Sans:wght@300;500 & family= Teko:wght@300 & family= Work+Sans:wght@300 & display=swap");
+
+:root {
+  /* couleurs des Logos ,Police*/
+  --blanc: #f1f0f0;
+  --lightgrey: #cfcdcd;
+  --grey: #aaa9a9;
+  --black: #010101;
+  --darkgrey: #2a2a29;
+  /* couleurs "Imfluence" */
+  --lightblue: #223f99;
+  --darkblue: #091338;
+  /* couleurs "Security",font */
+  --font-color: #091338;
+  /* --font-heading: "Teko", sans-serif; */
+  /* --font-heading: "Abel", sans-serif; */
+  --font-nav: "Abel", sans-serif;
+  --font-heading: "Work Sans", sans-serif;
+  --border-radius: 10px;
+}
+
+/* ******************************** */
+/* ******************************** */
+/* ********** DÉBUT *************** */
+/* ****** HEADER INTOUCHABLE ****** */
+/* ******************************** */
+/* ******************************** */
+body {
+  font-family: var(--font-heading);
+  margin: 0;
+  padding: 0;
+  background-color: #091338;
+}
+
+main {
+  background-color: #010101;
+  color: aliceblue;
+  font-family: var(--font-heading);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  border: solid;
+  background-color: #bbbbbb;
+}
+
+.navrs {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blanc);
+  margin-right: 5px;
+}
+
+.barnav {
+  padding-left: 25px;
+  border: solid;
+  border: #bbbbbb;
+  background-color: #bbbbbb;
+  text-align: center;
+  width: 5000px;
+  background-color: var(--darkblue);
+}
+
+.liennav:hover {
+  color: var(--lightblue);
+}
+
+.liennav {
+  text-decoration: none;
+  color: var(--lightgrey);
+  font-family: var(--font-nav);
+}
+
+.barnav ol li {
+  display: inline-block;
+  padding: 5px 20px 5px 5px;
+  font-style: none;
+  font-size: 1.8rem;
+  border-right: solid;
+  border-color: var(--lightgrey);
+  text-decoration-color: var(--lightgrey);
+}
+
+#formationbtn {
+  border-right: none;
+}
+
+.reseaux {
+  display: flex;
+  align-items: center;
+}
+
+.reseaux img {
+  margin: 5px;
+  width: 25px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--darkblue);
+}
+
+#nomentre {
+  width: 50%;
+  float: center;
+  margin-bottom: 25px;
+  height: 200px;
+  padding-left: 9%;
+}
+
+#logo {
+  left: 5px;
+  margin-bottom: 0px;
+  width: 250px;
+}
+
+body .navrs {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+/* ******************************** */
+/* ******************************** */
+/* ********** FIN ***************** */
+/* ****** HEADER INTOUCHABLE ****** */
+/* ******************************** */
+/* ******************************** */
+
+/* page accueil */
+
+.titrecarrou {
+  padding: 20px 0px 20px 0;
+  font-family: var(--font-nav);
+  text-align: center;
+  color: lightgrey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.paraccue {
+  border: solid;
+  border-radius: 7%;
+  padding: 0 150px 0;
+  background-color: #091338;
+  margin: 0px 0px 100px 0px;
+}
+
+.paraccu {
+  padding: 20px 0 20px 0;
+  margin: 0;
+  text-align: center;
+  border-radius: 0%;
+}
+
+.paraccu2 {
+  padding: 0 0 20px 0;
+  margin: 0;
+
+  text-align: center;
+  border-radius: 0%;
+}
+
+.paraccu3 {
+  padding: 0;
+  margin: 0;
+
+  padding: 0 0 20px 0;
+  border-radius: 12%;
+  text-align: center;
+  border-radius: 0%;
+}
+
+.titretemoin {
+  margin: 20px 0px 20px 0px;
+  font-family: var(--font-nav);
+  margin-bottom: -70px;
+  margin-top: -60px;
+  text-align: center;
+  font-size: 3rem;
+  color: lightgrey;
+}
+
+/* ************************************************ */
+/* ************************************************ */
+/* ************* DÉBUT **************************** */
+/* ************ CARROUSEL ************************* */
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
+#carrou {
+  align-items: right;
+  display: flex;
+  border: solid;
+  border-width: 10px;
+  border-radius: 60px;
+  border-color: black;
+  box-shadow: 20px 20px 15px 10px rgba(28, 17, 124, 0.212);
+  justify-content: center;
+  background-image: url(asset/backg.png);
+  height: 200px;
+  width: 65%;
+
+  margin: 0px 17% 70px;
+}
+
+.slider {
+  margin-top: 4.5%;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotate 35s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+.slider div {
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 40deg)) translateZ(350px);
+  background-color: black;
+  opacity: 50%;
+}
+.slider div:hover {
+  opacity: 100%;
+}
+
+.slider img {
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0;
+}
+
+.slider img:hover {
+  border: solid;
+  border-color: rgba(78, 14, 14, 0.774);
+  border-width: 5px;
+}
+
+.slider .text {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 30%;
+  color: white;
+  width: 70%;
+}
+
+.slider:hover {
+  animation-play-state: paused;
+}
+
+/* ************************************************ */
+/* ************************************************ */
+/* *************   FIN **************************** */
+/* ************ CARROUSEL ************************* */
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
+
+.habillacc img {
+  padding: 0;
+  margin: -50px 0 -5px 0;
+  max-width: 100%;
+  height: auto;
+}
+.quote {
+  display: block;
+  margin: 50px;
+  direction: ltr;
+}
+
+.quote2 {
+  display: block;
+  margin: 50px;
+  direction: rtl;
+}
+.quote3 {
+  display: block;
+  margin: 50px;
+  direction: ltr;
+}
+
+/* PAGE FORMATION */
+.mid {
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+.formatitle {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-heading);
+  color: aliceblue;
+}
+
+.formastitle {
+  margin-left: 50px;
+}
+
+main {
+  background-color: #010101;
+  color: lightgrey;
+}
+
+.formaliste {
+  margin-left: 70px;
+}
+
+.pforma {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.divforma {
+  margin-left: 60px;
+}
+
+.footerimg {
+  width: 30%;
+}
+
+/* css pour la page les dangers */
+
+.textp {
+  text-align: right;
+  /* border: solid; */
+
+  display: inline-block;
+  text-align: left;
+}
+.texti {
+  border: solid;
+  display: block;
+  float: right;
+}
+
+/* Haut de la page */
+.flexbox {
+  padding: 8px 10px;
+}
+
+.flexbox li {
+  border: solid var(--lightgrey);
+}
+
+.flexbox ul {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  padding: 5px 5px;
+}
+.flexbox li {
+  list-style-type: none;
+  font-size: 1rem;
+  color: var(--lightgrey);
+  height: 220px;
+  width: 320px;
+  background: var(--darkblue);
+  /* centrer verticalement */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+  box-shadow: 15px 15px 30px #09133860;
+  padding: 7px;
+  text-align: center;
+}
+/* fin haut de la page */
+.flexbox-mid #mid {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  padding: 0;
+}
+
+.flexbox-mid li {
+  list-style-type: none;
+  font-size: 1rem;
+  color: var(--lightgrey);
+  height: 220px;
+  width: 380px;
+  background: var(--darkblue);
+  /* centrer verticalement */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+  box-shadow: 15px 15px 30px #09133860;
+  padding: 7px;
+  text-align: center;
+  border: solid var(--lightgrey);
+}
+
+h3 {
+  padding-right: 5px;
+  color: red;
+}
+
+body {
+  background-color: #010101;
+}
+
+.divorga {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 50px;
+}
+
+.orga {
+  height: 40%;
+  width: 40%;
+  margin: 0;
+}
+
+.anews {
+  display: inline-block;
+  text-decoration: none;
+  border: solid;
+  border-color: aliceblue;
+  color: aliceblue;
+  margin-top: 8px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.anews:hover {
+  background-color: aliceblue;
+  color: #010101;
+}
+
+.ocnews {
+  display: inline-block;
+  text-decoration: none;
+  border: solid;
+  border-color: #223f99;
+  color: aliceblue;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.ocnews {
+  background-color: #223f99;
+}
+
+.newsmain {
+  margin: 12px;
+}
+
+u {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  border-radius: 7px;
+  border-color: aliceblue;
+}
+u:hover {
+  background-color: aliceblue;
+  color: #223f99;
+}
+
+/* ************************************************ */
+/* ************************************************ */
+/* ************* FOOTER *************************** */
+/* ************ PAS TOUCHE ************************ */
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
+footer img {
+  display: flex;
+  margin: -5px 0;
+  max-width: 30%;
+  float: right;
+}
+/* ************************************************ */
+/* ************************************************ */
+/* ************* FOOTER *************************** */
+/* ************ PAS TOUCHE ************************ */
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
+/* ************************************************ */
