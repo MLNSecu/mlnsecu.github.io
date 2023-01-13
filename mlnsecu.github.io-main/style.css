@@ -487,6 +487,8 @@ body {
   color: #010101;
 }
 
+
+
 .ocnews {
   display: inline-block;
   text-decoration: none;
@@ -504,6 +506,104 @@ body {
 .newsmain {
   margin: 12px;
 }
+#news1{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #news2{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #news3{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #news4{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #news5{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #news6{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #news7{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #news8{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #news9{
+    background-color: #4b4b4b;
+    box-shadow: 10px 10px 20px #ffffff2d;
+    display: flexbox;
+    width: 59rem;
+    text-align: left;
+    left: 2rem;
+    bottom: -51rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+  }
 
 u {
   text-decoration: none;
