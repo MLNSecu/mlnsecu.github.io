@@ -150,35 +150,28 @@ body .navrs {
 
 .paraccue {
   border: solid;
-  border-radius: 7%;
-  padding: 0 150px 0;
+  padding: 1rem;
   background-color: #091338;
-  margin: 0px 0px 100px 0px;
+  margin: 0px 150px 100px 150px;
 }
 
 .paraccu {
   padding: 20px 0 20px 0;
   margin: 0;
   text-align: center;
-  border-radius: 0%;
 }
 
 .paraccu2 {
   padding: 0 0 20px 0;
   margin: 0;
-
   text-align: center;
-  border-radius: 0%;
 }
 
 .paraccu3 {
   padding: 0;
   margin: 0;
-
   padding: 0 0 20px 0;
-  border-radius: 12%;
   text-align: center;
-  border-radius: 0%;
 }
 
 .titretemoin {
@@ -247,6 +240,7 @@ body .navrs {
   background-color: black;
   opacity: 50%;
 }
+
 .slider div:hover {
   opacity: 100%;
 }
@@ -301,21 +295,45 @@ body .navrs {
   max-width: 100%;
   height: auto;
 }
-.quote {
-  display: block;
-  margin: 50px;
-  direction: ltr;
+
+#quoteid {
+  height: 12rem;
+}
+
+.quote1 {
+  background-color: #3f3f3f;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 43rem;
+  text-align: left;
+  position: absolute;
+  left: 2rem;
+  bottom: -36rem;
+  padding: 0.5rem 1rem 1rem 1rem;
 }
 
 .quote2 {
-  display: block;
-  margin: 50px;
-  direction: rtl;
+  background-color: #223f99;
+  box-shadow: -10px 10px 20px #2240999f;
+  display: flexbox;
+  width: 43rem;
+  text-align: right;
+  position: absolute;
+  right: 2rem;
+  bottom: -43rem;
+  padding: 0.5rem 1rem 1rem 1rem;
 }
+
 .quote3 {
-  display: block;
-  margin: 50px;
-  direction: ltr;
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 53.6rem;
+  text-align: left;
+  position: absolute;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
 }
 
 /* PAGE FORMATION */
@@ -366,6 +384,7 @@ main {
   display: inline-block;
   text-align: left;
 }
+
 .texti {
   border: solid;
   display: block;
@@ -387,6 +406,7 @@ main {
   justify-content: space-around;
   padding: 5px 5px;
 }
+
 .flexbox li {
   list-style-type: none;
   font-size: 1rem;
@@ -403,6 +423,7 @@ main {
   padding: 7px;
   text-align: center;
 }
+
 /* fin haut de la page */
 .flexbox-mid #mid {
   display: flex;
@@ -490,6 +511,7 @@ u {
   border-radius: 7px;
   border-color: aliceblue;
 }
+
 u:hover {
   background-color: aliceblue;
   color: #223f99;
@@ -509,6 +531,7 @@ footer img {
   max-width: 30%;
   float: right;
 }
+
 /* ************************************************ */
 /* ************************************************ */
 /* ************* FOOTER *************************** */
