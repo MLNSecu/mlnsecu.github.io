@@ -300,7 +300,7 @@ body .navrs {
 }
 
 #quoteid {
-  height: 12rem;
+  height: 0.5rem;
 }
 
 .quote1 {
@@ -309,22 +309,24 @@ body .navrs {
   display: flexbox;
   width: 43rem;
   text-align: left;
-  position: absolute;
-  left: 2rem;
-  bottom: -63.5rem;
+
+  margin-left: 10rem;
+
   padding: 0.5rem 1rem 1rem 1rem;
+  margin-bottom: 2rem;
 }
 
 .quote2 {
-  background-color: #223f99;
-  box-shadow: -10px 10px 20px #2240999f;
+  background: var(--darkblue);
+  box-shadow: 5px 5px 30px #091541;
   display: flexbox;
   width: 43rem;
   text-align: right;
-  position: absolute;
-  right: 2rem;
-  bottom: -55.5rem;
+  float: right;
+
   padding: 0.5rem 1rem 1rem 1rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
 }
 
 .quote3 {
@@ -333,13 +335,42 @@ body .navrs {
   display: flexbox;
   width: 53.6rem;
   text-align: left;
-  position: absolute;
-  left: 2rem;
-  bottom: -48rem;
+  margin-top: 10rem;
+  margin-left: 10rem;
+
   padding: 0.5rem 1rem 1rem 1rem;
 }
 
 /* PAGE FORMATION */
+
+.formation1 {
+  border: solid;
+  padding: 1rem;
+  background-color: #091338;
+  margin: 0px 150px 2rem 150px;
+}
+
+.formation2 {
+  border: solid;
+  padding: 1rem;
+  background-color: #091338;
+  margin: 2rem 150px 2rem 150px;
+}
+
+.formation3 {
+  border: solid;
+  padding: 1rem;
+  background-color: #091338;
+  margin: 2rem 150px 2rem 150px;
+}
+
+.formation4 {
+  border: solid;
+  padding: 1rem;
+  background-color: #091338;
+  margin: 2rem 150px 2rem 150px;
+}
+
 .mid {
   margin-left: 450px;
   margin-right: 450px;
@@ -401,7 +432,7 @@ main {
 
 .flexbox li {
   border: solid var(--lightgrey);
-  border-color:#070f2b;
+  border-color: #070f2b;
 }
 
 .flexbox ul {
@@ -422,7 +453,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   box-shadow: 5px 5px 30px #091541;
   padding: 7px;
   text-align: center;
@@ -447,7 +478,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   box-shadow: 5px 5px 30px #091541;
   padding: 7px;
   text-align: center;
@@ -490,8 +521,6 @@ body {
   color: #010101;
 }
 
-
-
 .ocnews {
   display: inline-block;
   text-decoration: none;
@@ -509,104 +538,104 @@ body {
 .newsmain {
   margin: 12px;
 }
-#news1{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news1 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
-  #news2{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news2 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
-  #news3{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news3 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
-  #news4{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news4 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
-  #news5{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news5 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
-  #news6{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news6 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
-  #news7{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news7 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
-  #news8{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news8 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
-  #news9{
-    background-color: #4b4b4b;
-    box-shadow: 10px 10px 20px #ffffff2d;
-    display: flexbox;
-    width: 59rem;
-    text-align: left;
-    left: 2rem;
-    bottom: -51rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-  }
+#news9 {
+  background-color: #4b4b4b;
+  box-shadow: 10px 10px 20px #ffffff2d;
+  display: flexbox;
+  width: 59rem;
+  text-align: left;
+  left: 2rem;
+  bottom: -51rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
 
 u {
   text-decoration: none;
@@ -629,18 +658,12 @@ u:hover {
 /* ************************************************ */
 /* ************************************************ */
 
-footer{
-  display: flex;
-  flex-direction: column;
-  height: 1vh;
-  direction: rtl;
-}
-
 footer img {
-  display: flex;
-  margin: -5px 0;
+  display: block;
+  margin: 0px 0;
   max-width: 30%;
-  margin-top: auto;
+  margin: 2rem 0 0 0;
+  float: right;
 }
 
 /* ************************************************ */
