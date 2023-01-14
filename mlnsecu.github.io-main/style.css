@@ -341,6 +341,28 @@ body .navrs {
   padding: 0.5rem 1rem 1rem 1rem;
 }
 
+/* PAGE QUI SOMMES NOUS */
+.aboutus1 {
+  border: solid;
+  padding: 1rem;
+  background-color: #091338;
+  margin: 0px 150px 2rem 150px;
+}
+
+.aboutus2 {
+  border: solid;
+  padding: 1rem;
+  background-color: #091338;
+  margin: 0px 150px 2rem 150px;
+}
+
+.aboutus3 {
+  border: solid;
+  padding: 1rem;
+  background-color: #091338;
+  margin: 0px 150px 2rem 150px;
+}
+
 /* PAGE FORMATION */
 
 .formation1 {
