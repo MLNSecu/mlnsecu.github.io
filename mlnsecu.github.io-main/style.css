@@ -628,11 +628,19 @@ u:hover {
 /* ************************************************ */
 /* ************************************************ */
 /* ************************************************ */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 1vh;
+  direction: rtl;
+}
+
 footer img {
   display: flex;
   margin: -5px 0;
   max-width: 30%;
-  float: right;
+  margin-top: auto;
 }
 
 /* ************************************************ */
