@@ -380,6 +380,7 @@ body .navrs {
   display: flex;
   justify-content: center;
   font-family: var(--font-heading);
+
   color: aliceblue;
 }
 
@@ -394,15 +395,18 @@ main {
 
 .formaliste {
   margin-left: 70px;
+  font-size: 1.2rem;
 }
 
 .pforma {
   margin-left: 35px;
   margin-right: 35px;
+  font-size: 1.2rem;
 }
 
 .divforma {
   margin-left: 60px;
+  font-size: 1.2rem;
 }
 
 .footerimg {
